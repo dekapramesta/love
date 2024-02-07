@@ -1,4 +1,4 @@
-/*Author    : Wafa Rifqi Anafin*/
+/*Author    : Deka Pramesta*/
 /*Github    : https://github.com/wafarifki*/
 /*Facebook  : https://facebook.com/wafarifkianafin*/
 /*Instagram : https://instagram.com/wafarifki_*/
@@ -19,10 +19,39 @@ html {
   overflow-y: hidden;
 }
 
+ .form-control {
+      /* width: 100%; */
+      padding: 0.375rem 0.75rem;
+      font-size: 1rem;
+      line-height: 1.5;
+      color: #495057;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid #ced4da;
+      border-radius: 0.25rem;
+            text-align: center; /* Center align the text */
+
+      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+
+    /* Optional: Focus styles */
+    .form-control:focus {
+      color: #495057;
+      background-color: #fff;
+      border-color: #80bdff;
+      outline: 0;
+      box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    }
+
 .kontener2 {
   padding: 20px;
   text-align: center;
-  margin-top: 17%;
+   height: 100%;
+   margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .kontener2 h1 {
@@ -43,8 +72,52 @@ html {
 .kontener2 .tombol:hover {
   cursor: pointer;
   padding: 10px 30px 10px 30px;
-  background: #BCCFD7;
+  background: #69e498;
   color: #f5f5f5;
+  outline: none;
+  border: 2px solid #BCCFD7;
+  border-radius: 10px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+.kontener .tombol {
+  padding: 10px 30px 10px 30px;
+  background: transparent;
+  color: #BCCFD7;
+  outline: none;
+  border: 2px solid #BCCFD7;
+  border-radius: 10px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+.kontener .tombol:hover {
+  cursor: pointer;
+  padding: 10px 30px 10px 30px;
+  background: #69e498;
+  color: #f5f5f5;
+  outline: none;
+  border: 2px solid #BCCFD7;
+  border-radius: 10px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+.kontener2 .tombol-reject {
+  padding: 10px 30px 10px 30px;
+  background: transparent;
+  color: #BCCFD7;
+  outline: none;
+  border: 2px solid #BCCFD7;
+  border-radius: 10px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+.kontener2 .tombol-reject:hover {
+  cursor: pointer;
+  padding: 10px 30px 10px 30px;
+  color: #FFFFFF;
+  background: #f14a4a;
   outline: none;
   border: 2px solid #BCCFD7;
   border-radius: 10px;
@@ -56,6 +129,18 @@ html {
   padding: 20px;
   height: 100%;
 }
+
+.col{
+  flex-grow: 1;
+  padding: 10px; /* Adjust according to your preference */
+   box-sizing: border-box;
+}
+
+ .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin: -10px; /* Adjust according to your preference */
+    }
 
 .dalemnya_kontener {
   text-align: center;
@@ -79,6 +164,12 @@ html {
 
 section .gambar {
   border-radius: 10px;
+  
+}
+ .gambar {
+  max-width: 100%;
+  height: auto;
+  
 }
 
 section .ucapan {

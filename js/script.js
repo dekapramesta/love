@@ -1,10 +1,10 @@
-/*Author    : Wafa Rifqi Anafin*/
+/*Author    : Deka Pramesta*/
 /*Github    : https://github.com/wafarifki*/
 /*Facebook  : https://facebook.com/wafarifkianafin*/
 /*Instagram : https://instagram.com/wafarifki_*/
 /*Website   : https://wafarifki.tk*/
 
-var pages = new Array('halaman1', 'halaman2', 'halaman3', 'halaman4');
+var pages = new Array('halaman0','halaman1', 'halaman2', 'halaman3', 'halaman4');
 
 function klikMenu() {
   document.getElementsByClassName('dalemnya_kontener')[0].classList.toggle('buka_menu');

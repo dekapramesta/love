@@ -1,4 +1,4 @@
-/*Author    : Wafa Rifqi Anafin*/
+/*Author    : Deka Pramesta*/
 /*Github    : https://github.com/wafarifki*/
 /*Facebook  : https://facebook.com/wafarifkianafin*/
 /*Instagram : https://instagram.com/wafarifki_*/
@@ -10,8 +10,9 @@
     }
 
     .kontener2 {
-        padding: 10px;
-        text-align: center;
-        margin-top: 60%;
+       display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
     }
 }
